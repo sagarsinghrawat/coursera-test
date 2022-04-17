@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.outerbox {
+    position: relative;
+    border:1px solid black;
+    background-color:slategrey;
+    margin: 1.5%
+}
+
+.innerbox {
+    position: relative;
+    font-size: 125%;
+    font-weight:800;
+    height: 40px;
+    padding: 10px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    clear: both;
+    text-align: center;
+    float: right;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 150px;    
+}
+
+.color-1{
+    background-color:palevioletred;
+}
+
+.color-2{
+    background-color:firebrick;
+    color: white;
+}
+
+.color-3{
+    background-color:burlywood;
+}
+
+p {
+    padding: 10px;
+    clear:both;
+    text-align: left;
+    font-size: 110%;
+}
+
+@media (max-width: 767px) {
+    .meal-1, .meal-2, .meal-3{
+        float: left;
+    }
+}
+
+@media (min-width : 768px) and (max-width: 991px){
+    .meal-1, .meal-2{
+        width: 45%;
+        float: left
+    }
+    .meal-3{
+        width:93%;
+        float: left
+    }
+}
+@media (min-width : 992px){
+    .meal-1, .meal-2, .meal-3 {
+        float: left;
+        width:30%
+    }
+}
