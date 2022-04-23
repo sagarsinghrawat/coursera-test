@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #D3D3D3;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.menu {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.menu-list {
+    background-color: #D3D3D3;
+    padding-left: 10px;
+}
+
+.food {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 561px) {
+    .nav-link{
+        text-align: center;
+        border: 2px solid black;
+        font-size: 20px;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 560px) {
+    .nav-link{
+        text-align: center;
+        border: 2px solid black;
+        font-size: 20px;
+    }
+}
